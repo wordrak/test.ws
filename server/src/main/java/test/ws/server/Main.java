@@ -8,7 +8,7 @@ public class Main {
     private static boolean done = false;
 
     public static void main(String[] args) throws InterruptedException {
-        Greeter greeter = new Greeter();
+        GreeterService greeter = new GreeterService();
         endpoint = Endpoint.publish("http://0.0.0.0:6666/greeter", greeter);
 
         while (!done) {

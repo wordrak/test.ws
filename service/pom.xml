@@ -23,7 +23,7 @@
                             <goal>wsgen</goal>
                         </goals>
                         <configuration>
-                            <sei>test.ws.service.Greeter</sei>
+                            <sei>test.ws.service.GreeterDummy</sei>
                             <genWsdl>true</genWsdl>
                             <keep>true</keep>
                             <sourceDestDir>${basedir}/target/generated-sources/java</sourceDestDir>

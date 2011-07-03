@@ -34,7 +34,11 @@
                         <configuration>
                             <packageName>test.ws.client</packageName>
                             <sourceDestDir>${basedir}/target/generated-sources/java</sourceDestDir>
-                            <wsdlDirectory>${basedir}/../service/target/generated-sources/wsdl</wsdlDirectory>
+                            <wsdlUrls>
+                                <wsdlUrl>
+                                    file://${basedir}/../service/target/generated-sources/wsdl/GreeterService.wsdl
+                                </wsdlUrl>
+                            </wsdlUrls>
                         </configuration>
                     </execution>
                 </executions>

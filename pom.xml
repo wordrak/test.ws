@@ -12,6 +12,7 @@
         <module>client</module>
         <module>server</module>
         <module>service</module>
+        <module>dynamic-client</module>
     </modules>
     <build>
         <plugins>
