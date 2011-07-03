@@ -1,0 +1,18 @@
+
+JAX-WS WebService Example
+
+1. build everything
+
+  $ mvn package
+
+2. start the server
+
+  $ src/main/scripts/startServer.sh
+
+3. greet your mom
+
+  $ src/main/scripts/greet.sh mom
+
+4. explore the code
+
+5. done
